@@ -15,11 +15,13 @@ public final class R {
         public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int lblMessage=0x7f060000;
-        public static final int sendButton=0x7f060001;
+        public static final int lblMessage=0x7f060001;
+        public static final int sendButton=0x7f060002;
+        public static final int webView1=0x7f060000;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
+        public static final int activity_push=0x7f030000;
+        public static final int main=0x7f030001;
     }
     public static final class raw {
         public static final int bell=0x7f040000;
@@ -35,5 +37,6 @@ public final class R {
         public static final int gcm_unregistered=0x7f050007;
         public static final int hello_world=0x7f050001;
         public static final int send_notification=0x7f050002;
+        public static final int title_activity_push=0x7f05000a;
     }
 }

@@ -58,7 +58,7 @@ public class PushMainActivity extends Activity {
    	     sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "registrationId:");
    	     sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, registrationId);
    	     startActivity(Intent.createChooser(sharingIntent, "Share via"));
-    	  
+   	     	  
       }
     });
 

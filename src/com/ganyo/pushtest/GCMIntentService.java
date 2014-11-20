@@ -92,7 +92,7 @@ public class GCMIntentService extends GCMBaseIntentService {
     NotificationManager notificationManager = (NotificationManager)
         context.getSystemService(Context.NOTIFICATION_SERVICE);
     
-    Intent notificationIntent = new Intent(context, PushMainActivity.class);
+    Intent notificationIntent = new Intent(context, PushActivity.class);
     // set intent so it does not start a new activity
     notificationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
     PendingIntent intent = PendingIntent.getActivity(context, 0, notificationIntent, 0);
